@@ -17,6 +17,7 @@ let instancias=[];
             disabled.value=this.nuevaTarea;
             disabled.disabled=true;
 
+                //mensaje cambio
             let btnEdit=document.createElement("button");
             btnEdit.innerHTML="<i class='fas fa-lock'></i>";
             
